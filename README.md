@@ -56,6 +56,7 @@ WHERE condition;
 1. The `INSERT INTO` statement is used to insert new records in a table.
 2. It is possible to write the `INSERT INTO` statement in two ways.
 3. The first way specifies both the column names and the values to be inserted:
+4. `INSERT INTO` Syntax:
 
 ```
 INSERT INTO table_name (column1, column2, column3, ...)
@@ -68,3 +69,25 @@ VALUES (value1, value2, value3, ...);
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 ```
+
+## How to edit something inside of a table
+
+1. The `UPDATE` statement is used to modify the existing records in a table.
+2. The `UPDATE` Syntax:
+
+```
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+NOTE: Note: Be careful when updating records in a table! Notice the `WHERE` clause in the `UPDATE` statement. The `WHERE` clause specifies which record(s) that should be updated. If you omit the `WHERE` clause, all records in the table will be updated!
+
+## How to remove something from a table
+
+1. The `DELETE` statement is used to delete existing records in a table.
+2. The `DELETE` Syntax:
+
+`DELETE FROM table_name WHERE condition;`
+
+NOTE: Note: Be careful when deleting records in a table! Notice the `WHERE` clause in the `DELETE` statement. The `WHERE` clause specifies which record(s) should be deleted. If you omit the `WHERE` clause, all records in the table will be deleted!
