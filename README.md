@@ -35,7 +35,7 @@
 
 ## How to get everything from a single table.
 
-1. If you want to select all the fields available a table use this syntax: `SELECT * FROM table_name;`
+1. If you want to select all the fields available in a table use this syntax: `SELECT * FROM table_name;`
 
 ## How to get one thing from a single table with a "where" clause
 
